@@ -8,14 +8,10 @@
         <referenceBlock name="breeze.js">
             <arguments>
                 <argument name="bundles" xsi:type="array">
-                    <item name="default" xsi:type="array">
+                    <item name="dynamic" xsi:type="array">
                         <item name="items" xsi:type="array">
-                            <item name="amhidepriceForm" xsi:type="array">
-                                <item name="path" xsi:type="string">Swissup_BreezeAmastyHidePrice/js/amhidepriceForm</item>
-
-                                <item name="enabled" xsi:type="helper" helper="Swissup\Breeze\Helper\Config::isEnabled">
-                                    <param name="path">amasty_hide_price/general/enabled</param>
-                                </item>
+                            <item name="Amasty_HidePrice/*" xsi:type="array">
+                                <item name="path" xsi:type="string">Amasty_HidePrice/*</item>
                             </item>
                         </item>
                     </item>
